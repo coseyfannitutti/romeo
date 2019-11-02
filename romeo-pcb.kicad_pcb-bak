@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 37)
+    (drawings 36)
     (tracks 1486)
     (zones 0)
     (modules 125)
@@ -6101,9 +6101,6 @@
   (gr_line (start 154.0946 29.5695) (end 154.3812 29.845) (layer F.SilkS) (width 0.12))
   (gr_text "coseyfannitutti 2019\nrev1" (at 134.239 70.7136) (layer F.SilkS)
     (effects (font (size 2 1.5) (thickness 0.1)) (justify left))
-  )
-  (gr_text JLCJLCJLCJLC (at 200.025 20.6502) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text ATmega328P-PU (at 182.1942 19.0754) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
