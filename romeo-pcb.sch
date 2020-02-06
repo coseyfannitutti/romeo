@@ -1663,7 +1663,7 @@ Connection ~ 9350 2950
 Wire Wire Line
 	9350 2950 10200 2950
 Wire Wire Line
-	900  2375 2575 2375
+	900  2375 1725 2375
 Connection ~ 2575 2375
 Wire Wire Line
 	2575 2375 3400 2375
@@ -1824,7 +1824,7 @@ Wire Wire Line
 	2325 1100 2325 1625
 Connection ~ 2325 1625
 Wire Wire Line
-	2325 1625 2325 2700
+	2325 1625 2325 2125
 Wire Wire Line
 	1500 1100 1500 1625
 Connection ~ 1500 1625
@@ -2005,4 +2005,56 @@ Wire Wire Line
 Wire Wire Line
 	-25  1625 -25  1575
 Connection ~ 900  1625
+$Comp
+L keyboard_parts:KEYSW SW46
+U 1 1 5DDA954C
+P 300 2075
+F 0 "SW46" H 300 2308 60  0000 C CNN
+F 1 "KEYSW" H 300 1975 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.25u_PCBNOSCREEN" H 300 2075 60  0001 C CNN
+F 3 "" H 300 2075 60  0000 C CNN
+	1    300  2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  2075 1150 2075
+Wire Wire Line
+	1150 2075 1150 2125
+Wire Wire Line
+	1150 2125 1500 2125
+Wire Wire Line
+	0    2075 0    2125
+Wire Wire Line
+	0    2125 900  2125
+Connection ~ 900  2125
+$Comp
+L keyboard_parts:KEYSW SW47
+U 1 1 5DDEC3B1
+P 2025 2125
+F 0 "SW47" H 2025 2358 60  0000 C CNN
+F 1 "KEYSW" H 2025 2025 60  0001 C CNN
+F 2 "cftkb:SW_Cherry_MX1A_1.00u_PCB-NOSCREEN" H 2025 2125 60  0001 C CNN
+F 3 "" H 2025 2125 60  0000 C CNN
+	1    2025 2125
+	1    0    0    -1  
+$EndComp
+Connection ~ 2325 2125
+Wire Wire Line
+	2325 2125 2325 2700
+$Comp
+L Device:D_Small D47
+U 1 1 5DDEE842
+P 1725 2275
+F 0 "D47" V 1771 2207 50  0000 R CNN
+F 1 "D_Small" V 1680 2207 50  0000 R CNN
+F 2 "cftkb:D_DO-35_SOD27_P5.08mm_Horizontal" V 1725 2275 50  0001 C CNN
+F 3 "~" V 1725 2275 50  0001 C CNN
+	1    1725 2275
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1725 2375
+Wire Wire Line
+	1725 2375 2575 2375
+Wire Wire Line
+	1725 2125 1725 2175
 $EndSCHEMATC
