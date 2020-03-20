@@ -24,6 +24,5 @@ If you have already soldered switches, you will need to desolder them and swap t
 2. [8x m2x14mm standoffs](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.productlist.0.0.265047aaJgjb3X&algo_pvid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2&algo_expid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2-18&btsid=dcb8921a-e3ef-46a9-ae35-4c76361d9e36&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 3. [3x m2x8mm standoffs](https://www.aliexpress.com/item/32968906213.html?spm=a2g0o.productlist.0.0.265047aaJgjb3X&algo_pvid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2&algo_expid=cd49ee05-cc1d-4ee2-adb1-eb3f27e62dc2-18&btsid=dcb8921a-e3ef-46a9-ae35-4c76361d9e36&ws_ab_test=searchweb0_0,searchweb201602_7,searchweb201603_53)
 
-![mysterium](../doc/images/mysterium-case-top.jpg)
-![](../doc/images/mysterium-case-side.jpg)
-![](../doc/images/mysterium-case-bottom.jpg)
+![romeo](../doc/images/romeo-case-top.jpg)
+![](../doc/images/romeo-case-side.jpg)
