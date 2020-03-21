@@ -1,6 +1,6 @@
 # ROMEO
 
-**[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e73f69c93734976658b8c38/1584658078750/ROMEO+BUILD+GUIDE.pdf)**
+**[Build Guide](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e767acd0ff82c232030b20b/1584822992123/ROMEO+BUILD+GUIDE.pdf)**
 
 **[QMK Toolbox Flashing Guide (Recommended)](https://static1.squarespace.com/static/5c533d33348cd92b886e544d/t/5e73f6b325afdb570c7bbe6a/1584658100264/ROMEO+FLASHING+GUIDE.pdf)**
 
