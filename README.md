@@ -8,6 +8,7 @@
 **[Optional High Profile Lasercut Acrylic Case](./case)**
 
 ![romeo](./doc/images/romeo.jpg)
+![](./doc/images/romeo-kicad.jpg)
 ![](./doc/images/pcb-top.svg)
 ![](./doc/images/pcb-bottom.svg)
 ![](./doc/images/bottom.svg)
