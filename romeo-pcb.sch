@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:romeo-pcb-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-PU U1
+L romeo-pcb-rescue:ATmega328P-PU-MCU_Microchip_ATmega U1
 U 1 1 5D2C1379
 P 2500 5425
 F 0 "U1" H 2425 5550 50  0000 R CNN
@@ -90,7 +89,7 @@ L Device:Polyfuse_Small F1
 U 1 1 5D2CCADB
 P 8000 4025
 F 0 "F1" H 8068 4071 50  0000 L CNN
-F 1 "100mA" H 8068 3980 50  0000 L CNN
+F 1 "500mA" H 8068 3980 50  0000 L CNN
 F 2 "cftkb:polyfuse_5.1mm" H 8050 3825 50  0001 L CNN
 F 3 "~" H 8000 4025 50  0001 C CNN
 	1    8000 4025
@@ -365,7 +364,7 @@ D-
 Text GLabel 3100 5725 2    50   Input ~ 0
 reset
 $Comp
-L keyboard_parts:SW_PUSH RESET1
+L romeo-pcb-rescue:SW_PUSH-keyboard_parts RESET1
 U 1 1 5D2FCD08
 P 4275 4300
 F 0 "RESET1" H 4275 4555 50  0000 C CNN
@@ -485,7 +484,7 @@ $EndComp
 Wire Wire Line
 	5700 4425 5700 4575
 $Comp
-L keyboard_parts:SW_PUSH BOOT1
+L romeo-pcb-rescue:SW_PUSH-keyboard_parts BOOT1
 U 1 1 5D2C0447
 P 4275 4950
 F 0 "BOOT1" H 4275 5205 50  0000 C CNN
@@ -517,7 +516,7 @@ row1
 Text GLabel 3100 4725 2    50   Input ~ 0
 sck
 $Comp
-L Connector:AVR-ISP-6 J1
+L romeo-pcb-rescue:AVR-ISP-6-Connector J1
 U 1 1 5D2C325D
 P 5750 6250
 F 0 "J1" H 5470 6346 50  0000 R CNN
