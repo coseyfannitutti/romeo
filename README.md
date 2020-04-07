@@ -1,5 +1,5 @@
 # ROMEO
- Staggered 40% keyboard pcb assembled with only through hole components, including USB Type-C
+ Staggered 40% QMK and VIA compatible keyboard pcb assembled with only through hole components, including USB Type-C
 
 **[BOM, Build Guide, and Flashing Information](./doc)**
 
